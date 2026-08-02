@@ -100,7 +100,35 @@ Why Not Next.js?
 
 ==============================================================================================================================
 
+Why TypeScript?
 
+✔ Type Safety
+
+✔ Compile Time Errors
+
+✔ Better IntelliSense
+
+✔ Easier Refactoring
+
+✔ Self Documentation
+
+✔ Enterprise Standard
+
+----------------------
+
+JavaScript
+
+✔ Flexible
+
+✔ Faster to start
+
+✖ Runtime Errors
+
+----------------------
+
+Interview Question
+
+Why TypeScript instead of JavaScript?
 
 ==============================================================================================================================
 
