@@ -6,11 +6,11 @@ const Header = () => {
   return (
     <header className="header">
       <nav className="header-container">
-        <IconButton aria-label="Open Menu">
+        <IconButton>
           <MenuIcon />
         </IconButton>
 
-        <h1 className="logo">🤖 AI Chat Assistant</h1>
+        <h2>🤖 AI Chat Assistant</h2>
       </nav>
     </header>
   );

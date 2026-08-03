@@ -1,18 +1,16 @@
 .header {
-  border-bottom: 1px solid #e0e0e0;
-  background-color: #ffffff;
+  background: white;
+  border-bottom: 1px solid #ddd;
 }
 
 .header-container {
+  height: 64px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 64px;
   padding: 0 20px;
 }
 
-.logo {
+.header-container h2 {
   margin: 0;
-  font-size: 22px;
-  font-weight: 600;
 }
