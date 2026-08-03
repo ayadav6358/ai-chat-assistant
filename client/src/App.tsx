@@ -1,5 +1,7 @@
+import Home from "./pages/Home/Home";
+
 function App() {
-  return <h1>AI Chat Assistant</h1>;
+  return <Home />;
 }
 
 export default App;

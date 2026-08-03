@@ -1,0 +1,18 @@
+.header {
+  border-bottom: 1px solid #e0e0e0;
+  background-color: #ffffff;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+  padding: 0 20px;
+}
+
+.logo {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 600;
+}
