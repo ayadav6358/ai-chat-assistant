@@ -1,0 +1,28 @@
+{
+  "name": "ai-chat-assistant-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.0",
+    "dotenv": "^16.4.0",
+    "express": "^4.21.2",
+    "helmet": "^8.1.1",
+    "jsonwebtoken": "^9.0.1",
+    "winston": "^3.9.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.0",
+    "@types/express": "^5.0.0",
+    "@types/jsonwebtoken": "^9.0.1",
+    "@types/node": "^24.13.3",
+    "tsc-alias": "^1.8.8",
+    "tsx": "^4.20.0",
+    "typescript": "^5.8.3"
+  }
+}

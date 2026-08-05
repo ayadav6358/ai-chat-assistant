@@ -1,23 +1,17 @@
-import "./ChatWindow.css";
-import Message from "../Message/Message";
+import './ChatWindow.css';
+import Message from '../Message/Message';
+import type { ChatMessage } from '../../types/chat';
 
-const ChatWindow = () => {
+interface ChatWindowProps {
+  messages: ChatMessage[];
+}
+
+const ChatWindow = ({ messages }: ChatWindowProps) => {
   return (
     <div className="chat-window">
-      <Message
-        sender="ai"
-        text="👋 Welcome! Ask me anything."
-      />
-
-      <Message
-        sender="user"
-        text="Explain React."
-      />
-
-      <Message
-        sender="ai"
-        text="React is a JavaScript library used for building user interfaces."
-      />
+      {messages.map((message) => (
+        <Message key={message.id} sender={message.sender} text={message.text} />
+      ))}
     </div>
   );
 };

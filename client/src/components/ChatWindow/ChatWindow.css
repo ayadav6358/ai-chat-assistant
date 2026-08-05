@@ -1,6 +1,9 @@
 .chat-window {
   flex: 1;
   overflow-y: auto;
-  background: #fafafa;
-  padding: 20px;
+  background: linear-gradient(180deg, #f8fbff 0%, #f5f7fb 100%);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
